@@ -1,0 +1,22 @@
+{
+  "name": "RocketNLW",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para cria um site para gerenciar perguntas anonimas direcionados ao dono da página. Site criaddo na semana NLW da Rocket na missão Discovery. ",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "keywords": [],
+  "author": "Matheus Sanches",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23",
+    "sqlite3":"^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
